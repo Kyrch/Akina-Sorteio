@@ -2,8 +2,7 @@ listUsersPerAnime = { "Mi Bao Zhi Guo": ["Kyrch"], "Rikei ga Koi ni Ochita no de
 
 
 let div = document.getElementById("divprincipal");
-let usersAnilist = ['Kyrch', 'Cesar', 'MiltonXerox'];
-let usersGame = [...usersAnilist];
+let usersGame = ['Kyrch', 'Cesar', 'MiltonXerox'];
 
 for (let userGame of usersGame) {
     sortear();
