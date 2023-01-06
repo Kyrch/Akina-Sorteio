@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Akina Mountain - Sorteio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="mb-3">
+        <label for="formGroupExampleInput" class="form-label">Número mínimo de episódios</label>
+        <input type="text" class="form-control" id="minEps" placeholder="Padrão: 10">
+      </div>
+      <div class="mb-3">
+        <label for="formGroupExampleInput2" class="form-label">Número máximo de episódios</label>
+        <input type="text" class="form-control" id="maxEps" placeholder="Padrão: 26">
+      </div>
+      <div class="mb-3">
+        <label for="formGroupExampleInput3" class="form-label">Número mínimo de duração</label>
+        <input type="text" class="form-control" id="minDur" placeholder="Padrão: 15">
+      </div>
+      <div class="mb-3">
+        <label for="formGroupExampleInput4" class="form-label">Ano mínimo</label>
+        <input type="text" class="form-control" id="minYear" placeholder="Padrão: 0000">
+      </div>
+
+      <button type="submit" class="btn btn-primary" onclick="clickButton()">Sortear</button>
+      <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
