@@ -1,6 +1,6 @@
-listUsersPerAnime = k
+listUsersPerAnime = a
 
-let usersGame = ['Kyrch', 'Cesar', 'MiltonXerox'];
+let usersGame = ['Kyrch', 'Cesar', 'MiltonXerox', 'Matinhos', 'Leglacezito', 'JOEZEIRA25', 'Kalezinho', 'Torne12', 'NoobAmbu', 'Irumis', 'Nexther', 'Dakoc', 'Vitao', 'Hikki', 'Vini'];
 
 function clickButton() {
     minEps = parseInt(document.getElementById("minEps")?.value) || 10;
